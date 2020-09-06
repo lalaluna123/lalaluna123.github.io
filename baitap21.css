@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #f7f7f7;
+}
+
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex.column {
+    flex-direction: column;
+}
+
+.flex.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex.align-top {
+    align-items: flex-start;
+}
+
+/* Welcome */
+.welcome {
+    background-color: #ffffff;
+    padding: 100px;
+}
+.welcome-text {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    /* font-size: 30px; */
+    display: inline-block;
+    width: 30px;
+    margin: 0 10px;
+}
+
+
+/* Main */
+.main {
+    margin-top: 50px;
+}
+
+.blog-list {
+    flex: 0 75%;
+    /* padding-right: 50px; */
+    padding-left: 50px;
+}
+
+.blog {
+    background-color: #ffffff;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+
+.blog-time,
+.blog-title {
+    text-align: center;
+}
+
+.blog-time {
+    color: #8a8a8a;
+    margin-bottom: 10px;
+}
+
+.blog-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.blog-image {
+    margin-bottom: 50px;
+}
+
+.blog-details {
+    padding: 0 50px;
+    line-height: 1.8;
+}
+
+.blog p {
+    margin-bottom: 15px;
+}
+
+/* Author */
+.author {
+    flex: 0 25%;
+    background-color: #ffffff;
+    /* margin-top: -210px; */
+    /* padding: 30px; */
+    /* Bonus */
+    position: sticky;
+    top: 50px;
+    /* order: 1; */
+}
+
+.author-image {
+    padding: 15px 0;
+    align-self: stretch;
+    text-align: center;
+    background-color: #f7f7f7;
+    /* margin-bottom: 30px; */
+    background-image: url("https://genk.mediacdn.vn/2019/10/16/pixel-image-1-15711948680921149315497.jpg");
+}
+
+.author-avatar {
+    width: 120px;
+    border-radius: 50%;
+    /* margin-bottom: 20px; */
+}
+
+.author-info {
+    padding: 30px;
+}
+
+.author-name {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.author-details {
+    line-height: 1.6;
+    color: #8a8a8a;
+}
+
+/* Footer */
+.footer {
+    background-color: #ffffff;
+    padding: 50px;
+    text-align: center;
+    font-style: italic;
+    color: hotpink;
+}
+/* bonus */
+.bonus-container{
+    display: flex;
+    background-color: #ffffff ;
+}
+.bonus-wrapper{
+    width: calc(100%/3);
+    padding: 10px;
+}
+.bonus-header{
+    padding: 5px;
+}
